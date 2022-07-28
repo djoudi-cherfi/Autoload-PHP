@@ -6,6 +6,6 @@ class Test
 {
     public function __construct()
     {
-        echo "This is from Test class";
+        echo "This is from Test class<br />";
     }
 }
