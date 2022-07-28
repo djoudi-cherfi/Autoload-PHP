@@ -1,13 +1,14 @@
 <?php
 
-require "./app/Models/Student.php";
-require "./app/Models/Teacher.php";
-require "./app/Services/StudentService.php";
+// Imported autoload
+require 'autoload.php';
 
 use App\Models\Student;
 use App\Models\Teacher;
 use App\Services\StudentService;
+use App\Controllers\Test;
 
-new Student;
-new Teacher;
-new StudentService;
+// new Student;
+// new Teacher;
+// new StudentService;
+new Test;
