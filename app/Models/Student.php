@@ -8,4 +8,9 @@ class Student
     {
         echo "This is from Student class<br />";
     }
+
+    public static function ClassStudent(): void
+    {
+        echo __CLASS__ . "<br />";
+    }
 }
